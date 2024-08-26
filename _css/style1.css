@@ -1,0 +1,10 @@
+.gallery-container{
+    display: flex;/*Define a galeria como um flex container*/
+    flex-wrap: wrap;/*Quebra as imagens em linhas conforme necessários*/
+    justify-content: center;/*Centraliza as imagens horizontalmente*/
+    align-items: center;/*Centralizar as imagens verticalmente*/
+}
+.gallery-container img{
+    width: 200px;/*Define a largura das imagens*/
+    margin: 10px;/*Adiciona um espaço entre as imagens*/
+}
